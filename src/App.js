@@ -27,6 +27,7 @@ class App extends Component {
     monster.name.toLowerCase().includes(searchField.toLowerCase()))
   return (
     <div className="App">
+      <h1>gyanesh singh ka app</h1>
       <SearchBox 
        placeholder='search monsters'
        handleChange =  {e => this.setState({searchField: e.target.value})}/> 
